@@ -13,7 +13,7 @@ a {
 }
 
 li:hover {
-    background: var(--gradient-background);
+    background: var(--gradient-background-90deg);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     border-radius: 5px;
@@ -27,7 +27,7 @@ li:hover {
 
 .greeting {
     font-family: var(--font-family-secondary);
-    background: var(--gradient-background);
+    background: var(--gradient-background-90deg);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
