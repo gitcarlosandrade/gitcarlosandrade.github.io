@@ -1,0 +1,31 @@
+:root {
+    --font-family-primary: "Work Sans", "Georgia", serif;
+    --font-family-secondary: "Merriweather", "Georgia", serif;
+    --gradient-background: linear-gradient(360deg, rgba(194, 114, 255, 0.8407738095238095) 0%, rgba(255, 121, 73, 1) 35%, rgba(255, 196, 0, 1) 100%);
+    --gradient-background-90deg: linear-gradient(90deg, rgba(194, 114, 255, 0.8407738095238095) 0%, rgba(255, 121, 73, 1) 35%, rgba(255, 196, 0, 1) 100%);
+    --color-text: black;
+    --color-background: #f0f1f4;
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+.primary_button,
+.secondary_button {
+    font-family: var(--font-family-primary);
+    padding: 16px 32px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.primary_button {
+    background-image: var(--gradient-background-90deg);
+    margin-right: 16px;
+    font-weight: 600;
+}
+
+.secondary_button {
+    border: 1px solid #000;
+    font-weight: 500;
+}
