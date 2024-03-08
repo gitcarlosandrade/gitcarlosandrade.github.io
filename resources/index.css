@@ -1,0 +1,77 @@
+li {
+    margin: 10px;
+    display: inline-block;
+    padding: 16px;
+    font-family: "Work Sans", "Georgia", serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    background: -webkit-linear-gradient(360deg, rgba(194, 114, 255, 0.8407738095238095) 0%, rgba(255, 121, 73, 1) 35%, rgba(255, 196, 0, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 5px;
+}
+
+.presentation_section {
+    margin-left: 44px;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.greeting {
+    background: -webkit-linear-gradient(360deg, rgba(194, 114, 255, 0.8407738095238095) 0%, rgba(255, 121, 73, 1) 35%, rgba(255, 196, 0, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Merriweather", "Georgia", serif;
+    font-size: 48px;
+    line-height: 1.6;
+
+}
+
+.presentation {
+    background-color: f0f1f4;
+    font-family: "Merriweather", "Georgia", serif;
+    font-size: 32px;
+    line-height: 1.6;
+
+
+}
+
+.presentation_secondary {
+    color: f0f1f4;
+    font-family: "Work Sans", "Georgia", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.primary_button {
+    padding: 16px 32px;
+    border-radius: 50px;
+    margin-right: 16px;
+    background-image: linear-gradient(90deg, rgba(194, 114, 255, 0.8407738095238095) 0%, rgba(255, 121, 73, 1) 35%, rgba(255, 196, 0, 1) 100%);
+    font-family: "Work Sans", "Georgia", serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.secondary_button {
+    border: 1px solid #000;
+    padding: 16px 32px;
+    border-radius: 50px;
+    font-family: "Work Sans", "Georgia", serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.presentation_cta {
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 64px;
+}
