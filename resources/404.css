@@ -1,0 +1,41 @@
+main {
+    box-sizing: border-box;
+}
+
+section {
+    text-align: center;
+}
+
+span {
+    background: -webkit-linear-gradient(360deg, rgba(194, 114, 255, 0.8407738095238095) 0%, rgba(255, 121, 73, 1) 35%, rgba(255, 196, 0, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Work Sans", "Georgia", serif;
+    font-size: 100px;
+    line-height: 1.6;
+
+}
+
+h1 {
+    font-family: "Merriweather", "Georgia", serif;
+    font-size: 32px;
+    line-height: 1.6;
+}
+
+h3 {
+    font-family: "Work Sans", "Georgia", serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+li {
+    margin: 10px;
+    display: inline-block;
+    padding: 16px;
+    font-family: "Work Sans", "Georgia", serif;
+}
+
+a {
+    color: #66708e;
+}
