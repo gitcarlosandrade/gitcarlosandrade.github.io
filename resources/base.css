@@ -22,10 +22,10 @@ body {
 .primary_button {
     background-image: var(--gradient-background-90deg);
     margin-right: 16px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .secondary_button {
     border: 1px solid #000;
-    font-weight: 500;
+    font-weight: 300;
 }

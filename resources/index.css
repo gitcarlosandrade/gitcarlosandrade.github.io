@@ -47,25 +47,6 @@ li:hover {
     font-weight: 400;
 }
 
-.primary_button,
-.secondary_button {
-    font-family: var(--font-family-primary);
-    padding: 16px 32px;
-    border-radius: 50px;
-    text-transform: uppercase;
-}
-
-.primary_button {
-    margin-right: 16px;
-    background-image: var(--gradient-background-90deg);
-    font-weight: 600;
-}
-
-.secondary_button {
-    border: 1px solid #000;
-    font-weight: 500;
-}
-
 .presentation_cta {
     align-items: center;
     margin-top: 20px;
