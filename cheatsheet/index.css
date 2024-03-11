@@ -1,0 +1,64 @@
+@import url(../resources/base.css);
+
+img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+
+ul {
+    display: grid;
+    grid: auto / repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 16px;
+    padding: 16px;
+}
+
+li:hover {
+    background: var(--gradient-background-90deg);
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+.presentation_section {
+    margin-left: 44px;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.greeting {
+    font-family: var(--font-family-secondary);
+    background: var(--gradient-background-90deg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    line-height: 1.6;
+}
+
+.presentation {
+    font-family: var(--font-family-secondary);
+    font-size: 32px;
+    line-height: 1.6;
+}
+
+.presentation_secondary {
+    font-family: var(--font-family-primary);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.presentation_cta {
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 64px;
+}
