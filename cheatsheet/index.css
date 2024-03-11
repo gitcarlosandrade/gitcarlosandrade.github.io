@@ -39,3 +39,8 @@ li {
     -webkit-background-clip: content-box;
     background-clip: border-box;
 }
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
