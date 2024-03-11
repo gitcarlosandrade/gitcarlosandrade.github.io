@@ -29,3 +29,18 @@ body {
     border: 1px solid #000;
     font-weight: 300;
 }
+
+.gradient_title {
+    font-family: var(--font-family-secondary);
+    background: var(--gradient-background-90deg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    line-height: 1.6;
+}
+
+.title {
+    font-family: var(--font-family-secondary);
+    font-size: 24px;
+}

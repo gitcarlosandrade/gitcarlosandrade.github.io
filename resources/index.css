@@ -25,16 +25,6 @@ li:hover {
     padding: 20px;
 }
 
-.greeting {
-    font-family: var(--font-family-secondary);
-    background: var(--gradient-background-90deg);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 48px;
-    line-height: 1.6;
-}
-
 .presentation {
     font-family: var(--font-family-secondary);
     font-size: 32px;
