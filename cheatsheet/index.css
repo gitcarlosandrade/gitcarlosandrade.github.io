@@ -1,38 +1,45 @@
 @import url(../resources/base.css);
 
+
+section {
+    width: 100%;
+    text-align: center;
+}
+
 img {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     object-fit: contain;
 }
 
-ul {
-    display: grid;
-    grid: auto / repeat(auto-fill, minmax(200px, 1fr));
-    gap: 16px;
-    width: 70%;
-    margin: 0 auto;
+div {
+    width: 200px;
+    height: 200px;
+    background-color: var(--color-background);
+    border-radius: 12px;
+    position: relative;
+
 }
+
+a {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+div:hover {
+    background-color: var(--color-background-hover);
+}
+
 
 li {
     display: inline-block;
-    width: 200px;
-    height: 200px;
-    text-align: center;
     margin: 16px;
-    padding: 16px;
-}
-
-li:hover {
-    background: var(--gradient-background-90deg);
-    border: 1px solid transparent;
+    padding: 1px;
     border-radius: 12px;
-}
-
-.presentation_section {
-    margin-left: 44px;
-    max-width: 800px;
-    padding: 20px;
+    background: var(--gradient-background-90deg);
+    -webkit-background-clip: content-box;
+    background-clip: border-box;
 }
 
 .greeting {
@@ -55,10 +62,6 @@ li:hover {
     font-family: var(--font-family-primary);
     font-size: 16px;
     font-weight: 400;
-}
-
-.presentation_cta {
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 64px;
+    text-align: center;
+    padding: 24px;
 }
