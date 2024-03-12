@@ -114,6 +114,64 @@
             <h3>Flexbox Layout</h3>
             <pre><code>.container { display: flex; justify-content: center; }</code></pre>
         </div>
+        <div class="example">
+            <h3>Breadcrumb</h3>
+            <pre>
+                <code>
+                    .breadcrumb {
+                        text-align: left;
+                      }
+                      .breadcrumb li {
+                        float: left;
+                      }
+                      
+                      .breadcrumb a {
+                        color: #fff;
+                        background: darkcyan;
+                        text-decoration: none;
+                        position: relative;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center; 
+                        margin-right: 15px;
+                        padding: 0 5px;
+                      }
+                      .breadcrumb a::before,
+                      .breadcrumb a::after {
+                        content: "";
+                        position: absolute;
+                        border-color: darkcyan;
+                        border-style: solid;
+                        border-width: 15px 5px;
+                      }
+                      
+                      .breadcrumb a::before {
+                        left: -10px;
+                        border-left-color: transparent;
+                      }
+                      .breadcrumb a::after {
+                        left: 100%;
+                      }
+                      
+                      .breadcrumb a::after {
+                        left: 100%;
+                        border-color: transparent;
+                        border-left-color: darkcyan;
+                      }
+                      
+                      .breadcrumb a:hover {
+                        background-color: blue;
+                      }
+                      .breadcrumb a:hover::before {
+                        border-color: blue;
+                        border-left-color: transparent;
+                      }
+                      .breadcrumb a:hover::after {
+                        border-left-color: blue;
+                      }
+                </code>
+            </pre>
+        </div>
     </section>
 </body>
 
