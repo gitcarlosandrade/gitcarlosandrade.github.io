@@ -228,71 +228,176 @@
             <tr>
                 <th>Property</th>
                 <th>Description</th>
+                <th>Attributes</th>
                 <th>Example</th>
             </tr>
             <tr>
                 <td>display: flex;</td>
                 <td>Changes an element to a block-level container with flex items inside of it.</td>
+                <td>block | inline | inline-block | none</td>
                 <td><code>display: flex;</code></td>
             </tr>
             <tr>
                 <td>display: inline-flex;</td>
                 <td>Allows multiple flex containers to appear inline with each other.</td>
+                <td>inline | block | inline-block | none</td>
                 <td><code>display: inline-flex;</code></td>
             </tr>
             <tr>
                 <td>justify-content;</td>
                 <td>Spaces items along the main axis.</td>
+                <td>flex-start | flex-end | center | space-between | space-around | space-evenly</td>
                 <td><code>justify-content: center;</code></td>
             </tr>
             <tr>
                 <td>align-items;</td>
                 <td>Spaces items along the cross axis.</td>
+                <td>stretch | flex-start | flex-end | center | baseline</td>
                 <td><code>align-items: center;</code></td>
             </tr>
             <tr>
                 <td>flex-grow;</td>
                 <td>Specifies how much space flex items absorb along the main axis.</td>
+                <td>number</td>
                 <td><code>flex-grow: 1;</code></td>
             </tr>
             <tr>
                 <td>flex-shrink;</td>
                 <td>Specifies how much flex items shrink along the main axis.</td>
+                <td>number</td>
                 <td><code>flex-shrink: 1;</code></td>
             </tr>
             <tr>
                 <td>flex-basis;</td>
                 <td>Specifies the initial size of an element styled with flex-grow and/or flex-shrink.</td>
+                <td>length | percentage | auto</td>
                 <td><code>flex-basis: 100px;</code></td>
             </tr>
             <tr>
                 <td>flex;</td>
                 <td>Specifies flex-grow, flex-shrink, and flex-basis in one declaration.</td>
+                <td>none | [ <number> | auto ]{1,3}</td>
                 <td><code>flex: 1 1 100px;</code></td>
             </tr>
             <tr>
                 <td>flex-wrap;</td>
                 <td>Specifies that elements should shift along the cross axis if the flex container is not large enough.
                 </td>
+                <td>nowrap | wrap | wrap-reverse</td>
                 <td><code>flex-wrap: wrap;</code></td>
             </tr>
             <tr>
                 <td>align-content;</td>
                 <td>Spaces rows along the cross axis.</td>
+                <td>stretch | flex-start | flex-end | center | space-between | space-around</td>
                 <td><code>align-content: space-between;</code></td>
             </tr>
             <tr>
                 <td>flex-direction;</td>
                 <td>Specifies the main and cross axes.</td>
+                <td>row | row-reverse | column | column-reverse</td>
                 <td><code>flex-direction: column;</code></td>
             </tr>
             <tr>
                 <td>flex-flow;</td>
                 <td>Specifies flex-wrap and flex-direction in one declaration.</td>
+                <td>&lt;'flex-direction'&gt; || &lt;'flex-wrap'&gt;</td>
                 <td><code>flex-flow: column wrap;</code></td>
             </tr>
         </table>
     </section>
+    <section id="flexbox-attributes">
+        <h2 class="title">Flexbox Attributes</h2>
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>block</td>
+                <td>Generates a block-level box.</td>
+            </tr>
+            <tr>
+                <td>inline</td>
+                <td>Generates one or more inline boxes.</td>
+            </tr>
+            <tr>
+                <td>inline-block</td>
+                <td>Generates a block-level box that's flowed with surrounding content as if it were an inline box.</td>
+            </tr>
+            <tr>
+                <td>none</td>
+                <td>No rendering box is generated.</td>
+            </tr>
+            <tr>
+                <td>flex-start</td>
+                <td>Items are packed toward the start of the main axis.</td>
+            </tr>
+            <tr>
+                <td>flex-end</td>
+                <td>Items are packed toward the end of the main axis.</td>
+            </tr>
+            <tr>
+                <td>center</td>
+                <td>Items are centered along the main axis.</td>
+            </tr>
+            <tr>
+                <td>space-between</td>
+                <td>Items are evenly distributed along the main axis with the first item at the start and the last item
+                    at the end.</td>
+            </tr>
+            <tr>
+                <td>space-around</td>
+                <td>Items are evenly distributed along the main axis with equal space around them.</td>
+            </tr>
+            <tr>
+                <td>space-evenly</td>
+                <td>Items are evenly distributed along the main axis with equal space around them, including both ends.
+                </td>
+            </tr>
+            <tr>
+                <td>stretch</td>
+                <td>Items are stretched to fill the container along the cross axis.</td>
+            </tr>
+            <tr>
+                <td>baseline</td>
+                <td>Items are aligned such as their baselines align.</td>
+            </tr>
+            <tr>
+                <td>number</td>
+                <td>Numeric value used to specify the flex grow or shrink factor.</td>
+            </tr>
+            <tr>
+                <td>length</td>
+                <td>Specifies a fixed length.</td>
+            </tr>
+            <tr>
+                <td>percentage</td>
+                <td>Specifies a length as a percentage of the container's size.</td>
+            </tr>
+            <tr>
+                <td>auto</td>
+                <td>Specifies an automatic size.</td>
+            </tr>
+            <tr>
+                <td>row</td>
+                <td>Items are placed along the main axis, starting from the start and going to the end.</td>
+            </tr>
+            <tr>
+                <td>row-reverse</td>
+                <td>Items are placed along the main axis, starting from the end and going to the start.</td>
+            </tr>
+            <tr>
+                <td>column</td>
+                <td>Items are placed along the cross axis, starting from the start and going to the end.</td>
+            </tr>
+            <tr>
+                <td>column-reverse</td>
+                <td>Items are placed along the cross axis, starting from the end and going to the start.</td>
+            </tr>
+        </table>
+    </section>
+
 
     <section id="examples">
         <h1 class="title">HTML Tags Examples</h1>
